@@ -1,0 +1,118 @@
+@font-face {
+  font-family: iranyekan;
+  src: url(./fa/iranyekan/IRANYekanWeb.eot);
+  src: url(./fa/iranyekan/IRANYekanWeb.ttf);
+  src: url(./fa/iranyekan/IRANYekanWeb.woff);
+  src: url(./fa/iranyekan/IRANYekanWeb.woff2);
+}
+@font-face {
+  font-family: homa;
+  src: url(./fa/homa/BHoma.eot);
+  src: url(./fa/homa/BHoma.ttf);
+  src: url(./fa/homa/BHoma.woff);
+  src: url(./fa/homa/BHoma.woff2);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: iranyekan, homa;
+}
+/*start css project*/
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  .login {
+    background-color: #fff;
+    padding: 32px;
+    height: 430px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 24px;
+    align-items: center;
+   
+    img {
+        scale: 1.5;
+    }
+    .name__login {
+      width: 100%;
+      height: 30px;
+      font-size: 19px;
+      font-weight: 500;
+      color: #0c0c0c;
+      text-align: right;
+      line-height: 30px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      column-gap: 6px;
+       span {
+        width: 2px;
+        height: 20px;
+        border-radius: 5px;
+        background-color: #0c0c0c;
+        display: inline-block;
+      }
+    }
+    span {
+        width: 100%;
+        font-size: 12px;
+        display: flex;
+        justify-content: flex-end;
+    
+      &:nth-of-type(2){
+        margin-top: -8px;
+      }
+      &:nth-of-type(3){
+        color: #b2001a;
+        margin-top: -18px;
+        margin-right: 8px;
+       
+      }
+      &:nth-of-type(4){
+        direction: rtl;
+        font-size: 11px;
+        margin-top: -15px;
+        .totalone{
+            color: #008eb2;
+          text-decoration: none;
+          margin: 0 3px;
+        }
+        .totaltwo{
+            color: #008eb2;
+            text-decoration: none;
+            margin: 0 3px;
+        }
+      }
+    }
+    .box__text{
+      width: 100%;
+      height: 30px;
+      background-color: #ffffff;
+      border: 1px solid #EF4056;
+      outline: unset;
+      border-radius: 8px;
+      direction: rtl;
+      padding: 16px;
+    }
+    .submit{
+      width: 100%;
+      background-color: #EF4056;
+      border: unset;
+      height: 45px;
+      color: #fff;
+      border-radius: 8px;
+      margin-top: 30px;
+      cursor: pointer;
+    }
+  }
+}
+/*end css project */

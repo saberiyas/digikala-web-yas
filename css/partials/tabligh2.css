@@ -1,0 +1,20 @@
+.tabligh__2__1{
+    width: 100% ;
+    height: 280px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px ;
+    cursor: pointer;
+    .tabligh__2__2{
+        width: 90%;
+        height: 241px ;
+        img{
+            margin-right: 12px  ;
+            display: inline-block;
+            width: 660px  ;
+            height: 264px ;
+            border-radius: 8px ;
+        }
+    }
+}

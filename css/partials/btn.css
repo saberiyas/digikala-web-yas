@@ -1,0 +1,47 @@
+.btn__right{
+    width: 48px ;
+    height: 48px ;
+    background-color: #ef4056;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px ;
+    bottom: 30px ;
+    z-index: 999999999999999;
+    svg{
+        width: 24px ;
+        height: 24px ;
+        position: fixed;
+        right: 31px ;
+        bottom: 40px ;
+        fill: #ffff;
+        
+    }
+
+}
+
+.btn__left{
+    width: 129px ;
+    height: 52px ;
+    background-color: #029a49;
+    border-radius: 30px ;
+    position: fixed;
+    bottom: 30px ;
+    left: 20px ;
+    z-index: 9999999999999999;
+    padding: 10px 12px ;
+    span{
+        font-size:15px  ;
+        position: fixed;
+        bottom: 45px ;
+        left: 65px ;
+        color: #ffff;
+    }
+    svg{
+        fill: #ffff;
+        width: 24px ;
+        height: 24px ;
+        position: fixed;
+        bottom: 45px ;
+        left: 35px ;
+    }
+}

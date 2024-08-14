@@ -1,0 +1,68 @@
+.brand__1{
+    width: 100%;
+    height: 260px ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .brand__2{
+        position: relative;
+        padding-top:24px  ;
+        padding-bottom: 24px ;
+        display: flex;
+        justify-content: center;
+        width: 88%;
+        height: 224px ;
+        border-radius: 20px ;
+        border: 1px solid #cac9c9d5 ;
+        cursor: pointer;
+        .brand__text{
+            /* background-color: #ffff; */
+            position: absolute;
+            right: 590px ;
+            display: flex;
+            align-items: center;
+            /* width: inherit; */
+            height: 24px ;
+            color: #0c0c0c;
+            font-size: 21px ;
+            
+            svg{
+                position: absolute;
+                bottom:-1px ;
+                right: -25px ;
+                width: 24px ;
+                height: 24px ;
+                fill: #F9BC00;
+            }
+
+        }
+        .body__swiper{
+            position: absolute;
+            top: 70px ;
+            width: 100%;
+            height: 130px ;
+            background-color:#F0F0F1 ;
+            img{
+                width:110px ;
+                height: 110px ;
+            }
+            .image__4{
+                width: 110px ;
+                height: 60px ;
+            }
+            .image__11{
+                width: 40px ;
+                height: 40px ;
+            }
+            .image__12{
+                width: 60px ;
+                height: 50px ;
+            }
+            .image__13{
+                width: 110px ;
+                height: 60px ;
+            }
+        }
+    }
+}

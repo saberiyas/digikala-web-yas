@@ -1,0 +1,19 @@
+.tabligh{
+    width: 100% ;
+    height: 280px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    .tabligh2{
+        width: 90%;
+        height: 241px ;
+        img{
+            margin-right: 12px  ;
+            display: inline-block;
+            width: 325px ;
+            height: 241px ;
+            border-radius: 8px ;
+        }
+    }
+}

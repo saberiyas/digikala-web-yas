@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: iranyekan, homa;
+    
+}
+@font-face {
+    font-family: iranyekan;
+    src: url(../../fonts/fa/iranyekan/IRANYekanWeb.eot);
+    src: url(../../fonts/fa/iranyekan/IRANYekanWeb.woff);
+    src: url(../../fonts/fa/iranyekan/IRANYekanWeb.woff2);
+    src: url(../../fonts/fa/iranyekan/IRANYekanWeb.ttf);
+}
+@font-face {
+    font-family: homa;
+    src: url(../../fonts/fa/homa/BHoma.eot);
+    src: url(../../fonts/fa/homa/BHoma.ttf);
+    src: url(../../fonts/fa/homa/BHoma.woff2);
+    src: url(../../fonts/fa/homa/BHoma.woff);
+}
+.wrapper{
+    width: 100%;
+    max-width: 1920px ;
+    margin: 0 auto;
+}
+
+
